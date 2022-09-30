@@ -50,8 +50,18 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-
-
+//totalAcres = 0 so that way it wouldn't mess with the other numbers when adding. Simply used 3 for loops to itterate thorugh all the elements for each week. Total is 63 acres.
+let totalAcres = 0;
+for (let i = 0; i < fujiAcres.length; i++){
+    totalAcres += fujiAcres[i];
+}
+for (let j = 0; j < galaAcres.length; j++){
+    totalAcres += galaAcres[j];
+}
+for (let k = 0; k < pinkAcres.length; k++){
+    totalAcres += pinkAcres[k];
+}
+console.log(totalAcres)
 
 
 
@@ -68,8 +78,9 @@ const pinkPrice = .55
 */
 
 // CODE HERE
-
-
+//assigned avegerageDailyAcres to total acres and on avg 9 acres were picked per day
+let averageDailyAcres = totalAcres /= 7;
+console.log(averageDailyAcres);
 
 
 
@@ -106,8 +117,11 @@ let acresLeft = 174
 let days = 0
 
 // CODE HERE
-
-
+while (acresLeft > 0){
+    days++;
+    acresLeft - averageDailyAcres;
+}
+//console.log(days)
 
 // PROBLEM 4
 
@@ -135,12 +149,23 @@ let days = 0
 
 // CODE HERE
 
-// let fujiTons =
-// let galaTons =
-// let pinkTons =
+let fujiTons = fujiAcres.splice(0);
+let galaTons = galaAcres.splice(0);
+let pinkTons = pinkAcres.splice(0);
 
-
-
+let totalTons = 6.5;
+for (let l = 0; l < fujiTons.length; l++){
+    totalTons *= fujiTons[0];
+    console.log(totalTons);
+}
+for (let m = 0; m < fujiTons.length; m++){
+    totalTons *= galaTons[m];
+    console.log(totalTons);
+}
+for (let n = 0; n < pinkTons.length; n++){
+    totalTons *= pinkTons[n];
+    console.log(totalTons);
+}
 
 
 
@@ -209,3 +234,4 @@ let days = 0
 */
 
 // CODE HERE
+
