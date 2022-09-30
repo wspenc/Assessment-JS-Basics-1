@@ -4,7 +4,7 @@
 const faveColors = ['red', 'green', 'black']
 
 //CODE HERE
-//assinged colorCopy to faveColors.slice so the new array would log to the terminal. And by leaving the parenthesis empty it would take in the original array.
+//assinged colorCopy to faveColors.slice so the new array would log to the terminal. And by leaving the parameter empty it would take in the original array.
 let colorCopy = faveColors.slice();
 //console.log(colorCopy) 
 //////////////////PROBLEM 2////////////////////
@@ -43,10 +43,9 @@ const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 let answers = [];
 for (let i = 0; i < bigOrSmallArray.length; i++){
   if (bigOrSmallArray[i] > 100){
-    console.log(answers.push("big"));
+    answers.push("big");
 }else{
-  console.log(answers.push("small"));
+  answers.push("small");
 }
 };
 console.log(answers)
-
