@@ -7,11 +7,12 @@ let myName = "Will";
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
 //CODE HERE
-let faveNum = "12";
+let faveNum = 12;
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
 //CODE HERE
+//used the true boolean, since it is a boolean (data type) quotes are not needed.
 let lovesCode = true;
 //////////////////PROBLEM 4////////////////////
 /*
@@ -21,6 +22,7 @@ let lovesCode = true;
 */
 
 //CODE HERE
+//used strict eqauls to see if faveNum would log the true or false statement
 if (faveNum === 13){
   console.log('Lucky 13');
 }
@@ -31,6 +33,7 @@ console.log('Not lucky 13');
 */
 
 //CODE HERE
+//made it less than five so that way it would only loop through it the required ammount
 for(let i = 0; i < 5; i++){
   console.log(faveNum);
 }
