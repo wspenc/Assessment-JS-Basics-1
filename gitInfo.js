@@ -26,7 +26,7 @@ let gitHubDefinition = "Github is a website which allows you to upload files. Is
 */
 
 //CODE HERE
-let gitInitDefinition = "It is used to basically initialize and repo"
+let gitInitDefinition = "It is to create a repo as the location your terminal is pointed to"
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,7 +34,7 @@ let gitInitDefinition = "It is used to basically initialize and repo"
 */
 
 //CODE HERE
-let gitCloneDefinition = "Make a copy of an already exisiting repo in new location"
+let gitCloneDefinition = "git clone saves a repo, based on a URL, at the current location your terminal is currently pointed to"
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  
@@ -53,7 +53,8 @@ let gitStatusDefinition = "Shows the staging portion for example any new changes
 */
 
 //CODE HERE
-let gitAddDefinition = "Saves whatever you have done. Can save multiple times using git add ."
+let gitAddDefinition = "Stages certain file changes"
+let gitAddCode = "git add ."
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,7 +66,7 @@ let gitAddDefinition = "Saves whatever you have done. Can save multiple times us
 
 //CODE HERE
 let gitCommitDefinition = "This command is what takes a snapshot of the current code"
-
+let gitCommitCode = 'git commit -m "initial commmit"'
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -73,4 +74,4 @@ let gitCommitDefinition = "This command is what takes a snapshot of the current 
 */
 
 //CODE HERE
-let gitPushDefinition = "The command that actually uploads your code to a repo on github"
+let gitPushDefinition = "The command that actually uploads your code or changes to a repo on github"
